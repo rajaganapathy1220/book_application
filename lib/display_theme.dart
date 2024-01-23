@@ -24,7 +24,7 @@ class DisplayTheme extends StatelessWidget {
               textAlign: TextAlign.center,
               style: TextStyle(
                   fontSize: 21,
-                  letterSpacing: 1.2,
+                  letterSpacing: 1,
                   color: Colors.white),
             ),
           ),

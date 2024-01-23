@@ -23,7 +23,7 @@ class DisplayText extends StatelessWidget {
               appDataText.text,
               textAlign: TextAlign.center,
               style: TextStyle(
-                  fontSize: 25, letterSpacing: 1.2, color: Colors.white),
+                  fontSize: 25, letterSpacing: 1, color: Colors.white),
             ),
           ),
         ),
