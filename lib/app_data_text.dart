@@ -22,5 +22,5 @@ List<AppDataText> appDataText = [
   AppDataText(
       'In the book of nature, every page tells a story of wonder and fascination.'),
   AppDataText(
-      'Science is the key that unlocks the mysteries of the universe, inviting us to explore its boundless secrets'),
+      'Science is the key that unlocks the mysteries of the universe, inviting us to explore its boundless secrets.'),
 ];

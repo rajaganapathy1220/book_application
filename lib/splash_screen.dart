@@ -37,9 +37,9 @@ class _SplashScreenState extends State<SplashScreen> {
                   'Nature\'s whispers, wisdom echoes',
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    fontSize: 25,
+                    fontSize: 26,
                     fontWeight: FontWeight.bold,
-                    color: Color(0xFFDA9100),
+                    color: Colors.green,
                   ),
                 )
                     .animate()
