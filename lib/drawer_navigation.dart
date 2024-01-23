@@ -23,7 +23,7 @@ class _DrawerNavigationState extends State<DrawerNavigation> {
           UserAccountsDrawerHeader(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('images/natureBG1.webp'),
+                image: AssetImage('images/naturebg.jpeg'),
                 fit: BoxFit.fitWidth,
               ),
             ),
@@ -31,20 +31,20 @@ class _DrawerNavigationState extends State<DrawerNavigation> {
               'Nature\'s Tapestry',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
-                color: Colors.black87,
+                color: Colors.white,
                 fontSize: 17
               ),
             ),
             accountEmail: Text(
               'Version 1.0',
               style: TextStyle(
-                color: Colors.black,
+                color: Colors.white,
                 fontWeight: FontWeight.bold,
                 fontSize: 17
               ),
             ),
             currentAccountPicture: CircleAvatar(
-              backgroundImage: AssetImage('images/Nature Profile.png'),
+              backgroundImage: AssetImage('images/natureProfile.png'),
               radius: 50,
             ),
           ),

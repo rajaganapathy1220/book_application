@@ -1,3 +1,6 @@
+import 'package:book_application/page_view_text.dart';
+import 'package:book_application/page_view_theme.dart';
+import 'package:book_application/page_view_words.dart';
 import 'package:book_application/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -33,7 +36,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SplashScreen(),
+      home: PageViewWords(),
     );
   }
 }

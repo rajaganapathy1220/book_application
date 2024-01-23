@@ -13,6 +13,7 @@ class PageViewTheme extends StatefulWidget {
 
 class _PageViewThemeState extends State<PageViewTheme> {
   var _selectedIndex = 0;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,26 +33,11 @@ class _PageViewThemeState extends State<PageViewTheme> {
           ),
         ),
         actions: [
-          PopupMenuButton(
-            itemBuilder: (context) => [
-              PopupMenuItem(
-                value: 1,
-                child: Text(
-                  'Share',
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                    color: Color(0xFFDA9100),
-                  ),
-                ),
-              )
-            ],
-            onSelected: (value) {
-              if (value == 1) {
+          IconButton(
+              onPressed: () {
                 shareof();
-              }
-            },
-          )
+              },
+              icon: Icon(Icons.share))
         ],
       ),
       body: Column(
